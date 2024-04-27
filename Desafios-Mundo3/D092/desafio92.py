@@ -30,6 +30,8 @@ while True:
     if continuar == 999:
         break
     c += 1
-
+print('='*40)
 for i, p in pessoas.items():
-    print(f'{i} tem o valor {p}')
+    print(f'PESSOA {i}')
+    print(f' - {i} tem o valor {p}')
+    print('='*40)
